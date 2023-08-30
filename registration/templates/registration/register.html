@@ -1,6 +1,5 @@
-<h1>Welcome to Registration of Swimming Summer-Camp </h1>
+<h1>Summer-Camp Swimming Registration</h1>
 <form method="post">
-    {% csrf_token %}
-    {{ form.as_p }}
-    <button type="submit">Submit</button>
+  {% csrf_token %} {{ form.as_p }}
+  <button type="submit">Submit</button>
 </form>
